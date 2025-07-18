@@ -176,9 +176,11 @@
        display: grid;
        grid-template-columns: repeat(4,1fr);
        margin-top: 60px;
+         
        }
     .instagram-image img{
        border-radius: 10px;
+       max-width: 100%;
        } 
     /* details  */
     .details-container{
@@ -284,13 +286,16 @@
                 }  
           .instagram-image{
                 grid-template-columns: repeat(1,1fr);
-                align-self: center;
-                margin: 0 auto;
-                gap: 24px;
-                width: 90%;
-                margin-left: 40px; 
-                margin-top: 30px;   
+                align-self: center; 
+                margin: 0 auto; 
+                gap: 24px 0; 
+                max-width: 90%;             
+                margin-top: 30px; 
                 }
+          .instagram-image img{
+                width: 100%;
+                height: 100%;
+                } 
           .information-form{
                 flex-direction: column;
                 }
