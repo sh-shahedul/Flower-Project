@@ -3,15 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-.header{
-     /* max-width: 1920px; */
+  .header{
      margin: 0 auto;
      background-color:rgba(229, 84, 115, 0.1) ;
-}
-
-
+     }
 /* share code  */
   .btn-primary{
     font-size: 1.25rem;
@@ -21,392 +16,291 @@
     border-radius:8px ;
     background-color: #E55473;
     color: #FFFFFF;
-  }
-
+    }
   .common-description{
      font-size: 1.125rem;
      color: rgba(39, 39, 39, 0.6);
      text-align: center;
-  }
+     }
   .common-title{
       font-size: 2.5rem;
       font-weight: 900;
       color: #272727;
       text-align: center;
       margin: 5px 0px;
-}
-
-
-
+      }
 /* header style  */
-
-
-
-.header-container{
+   .header-container{
       max-width: 1440px;
       margin: 0 auto; 
       display: flex;
       align-items: center;
       justify-content: space-between;
-}
-
-
-.header-article{
- 
-  max-width: 680px;
-
-}
-.header-title{
-   font-size: 5rem;
-   font-weight:900 ;
-   margin: 5px ;
-}
-.header-sub-title{
-   font-size: 1.125rem;
-   color: rgba(39, 39, 39, 0.6) ;
-   margin-top: 20px;
-   margin-bottom: 20px;
-}
-.header-img img{
-  max-width: 635px;
-  height: 700px;
- 
-}
-
-main{
-     max-width: 1440px;
-     margin: 0 auto;
-}
-
-
-
-/* feature style  */
-.feature-container{
-    margin-top: 100px;
-}
-.feature-title{
-    margin-bottom: 30px;
-}
-
-.feature-card-container{
-     
-    
-    
-
-    gap: 24px;
-    
-    display: grid;
-   grid-template-columns: repeat(3,1fr);
-   text-align: center;
-   margin-top: 100px;
-}
-
-    
-    
-    
-     
-
-
-.feature-image{
-   
-    width: 100%;  
-    height: 500px;
-    margin: 0 auto;
-    background-color:rgba(167, 33, 98, 0.15) ;
-    border-radius: 100% 100% 0 0;  
-
-}
-.feature-name{
-    margin-top: 20px;
-}
-.second-color{
-background-color:rgba(5, 151, 160, 0.15) ;
-}
-.third-color{
-   background-color: rgba(71, 125, 17, 0.15); 
-} 
-
-
-.feature-image .img1{
-    padding:70px 0px 0px 0px;
-}
-.feature-image .img2{
-    padding:80px 0 50px 0px;
-}
-.feature-image .img3{
-    padding:30px 0px 0px 0px;
-}  
-
-.feature-name{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: underline;
-    color: #272727;
-     
-    
-}
-
-/* sevice style   */
-.our-services-container{
-    background-color: rgba(39, 39, 39, 0.05);
-    margin-top: 170px;
-    border-radius: 8px;
-}
-
-.our-services{
-      max-width: 1190px;
-      height: 330px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
-      justify-content: space-between;
-      align-items: center;
-      text-align: center;
-}
-.our-services img{
-   max-width: 30%;
-   padding: 10px 0 0 0;
- 
-}
-.our-services .service{
-    font-size: 1.5rem;
-    color:rgba(39, 39, 39, 0.8) ;
-    font-weight: 500;
-    margin-top: 30px;
- 
-}
-
-
-
-/* discount   */
-.discount-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e5547315;
-    margin-top: 120px;
-    height: 540px;
-    border-radius: 8px;
-   
-}
-.discount-airticle{
-    flex: 1;
-  max-width: 595px;
-  margin: 0 auto;
-  text-align: center;
-
-  margin-left: 200px;
-}
-.discount-title{
-    margin-bottom: 20px;
-}
-.discount-discription{
-    margin-bottom: 20px;
-}
-.off{
-    color: #E55473;
-}
-.discount-image{
-    flex: 1;
-    text-align: center;
-
-}
-.instagram-container{
-    margin-top: 130px;
-}
-.instagram-airticle{
-    max-width: 595px;
-    margin: 0 auto;
-}
-.insta-title{
-    margin-bottom:30px;
-}
-
-.instagram-image{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin-top: 60px;
-   
-    
-    
-}
-.instagram-image img{
-  border-radius: 10px;
-} 
-
-
-/* details  */
-.details-container{
-        max-width: 1440px;
-        margin: 0 auto;
-        height: 449px;
-        
-        background-image: url("../Flower Asset/Rectangle\ 9.png");
-        background-repeat: no-repeat;
-        margin-top: 120px;
-
-        padding: 130px 0 130px 0 ;
-
-}
-
- .details-title{
-    /* margin-bottom: 200px; */
- }
-
-.information-form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-input{
-     width:680px ;
-     height: 65px; 
-     border-radius: 8px;
-     border: none;
-     padding: 30px;
-     
-}
-.Subscrive{
-    margin-left: 10px;
-}
-
-  .footer{
-    background-color: #111010;
-    margin-top: 120px;
-    margin-bottom: 70px;
-  }
-  .footer-container{
-    max-width: 625px;
-    margin: 0 auto;
-    text-align: center;
-    /* padding: 30px 0 30px 0; */
-    
-  }
-
- .footer-title{
-      font-size: 3rem;
-      font-weight: 800;
-      color: white;
-       padding: 30px 0 0 0;
-      
- }
-
- .footer-description{
-  color: rgba(255, 255, 255, 0.9);
-   font-size: 1.125rem;
-   margin-top: 10px;
- }
-
- .footer-build{
-    color: rgba(255, 255, 255, 0.4);
-    margin-top: 10px;
-    padding:  0 0 40px 0;
- }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:576px) {
-       .header-container{
-        flex-direction: column;
+      }
+   .header-article{
+     max-width: 680px;
+     }
+   .header-title{
+      font-size: 5rem;
+      font-weight:900 ;
+      margin: 5px ;
+      }
+   .header-sub-title{
+      font-size: 1.125rem;
+      color: rgba(39, 39, 39, 0.6) ;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      }
+   .header-img img{
+      max-width: 635px;
+      height: 700px;
+      }
+  /* main style  */
+   main{
+       max-width: 1440px;
+       margin: 0 auto;
+       }
+  /* feature style  */
+   .feature-container{
+       margin-top: 100px;
+       }
+   .feature-title{
+       margin-bottom: 30px;
+       }
+   .feature-card-container{
+       gap: 24px;
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       text-align: center;
+       margin-top: 100px;
+       }
+    .feature-image{
+       width: 100%;  
+       height: 500px;
+       margin: 0 auto;
+       background-color:rgba(167, 33, 98, 0.15) ;
+       border-radius: 100% 100% 0 0;  
+       }
+    .feature-name{
+       margin-top: 20px;
+       }
+    .second-color{
+       background-color:rgba(5, 151, 160, 0.15) ;
+       }
+    .third-color{
+       background-color: rgba(71, 125, 17, 0.15); 
        } 
-       .header-title{
-      font-size: 3.5rem;
-      text-align: center;
-      margin: 5px 0px;
-        }
-        .header-sub-title{
-            text-align: center;
-            /* padding: 10px; */
-        } 
-        .btn-primary{
-         margin-left: 100px;
-        }
-       
-       .header-img img{
-       width: 100%;
-       height: 100%;
-       margin-top: 50px;
- 
-         }
-     
-  .feature-card-container{
-        margin-top: 100px;
-        box-sizing: border-box;
-       grid-template-columns: repeat(1,1fr);
-        
-     
-} 
-.feature-image{
-     margin-top: 80px; 
-     width: 100%;
-}
+    .feature-image .img1{
+       padding:70px 0px 0px 0px;
+       }
+    .feature-image .img2{
+       padding:80px 0 50px 0px;
+       }
+    .feature-image .img3{
+       padding:30px 0px 0px 0px;
+       }  
+    .feature-name{
+       font-size: 1.5rem;
+       font-weight: bold;
+       text-decoration: underline;
+       color: #272727;
+       }
+   /* sevice style   */
+    .our-services-container{
+       background-color: rgba(39, 39, 39, 0.05);
+       margin-top: 170px;
+       border-radius: 8px;
+       }
+    .our-services{
+       max-width: 1190px;
+       height: 330px;
+       margin: 0 auto;
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       justify-content: space-between;
+       align-items: center;
+       text-align: center;
+       } 
+    .our-services img{
+       max-width: 30%;
+       padding: 10px 0 0 0;
+       }
+    .our-services .service{
+       font-size: 1.5rem;
+       color:rgba(39, 39, 39, 0.8) ;
+       font-weight: 500;
+       margin-top: 30px;
+       }
+  /* discount   */
+    .discount-container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #e5547315;
+       margin-top: 120px;
+       height: 540px;
+       border-radius: 8px;
+       }
+    .discount-airticle{
+       flex: 1;
+       max-width: 595px;
+       margin: 0 auto;
+       text-align: center;
+       margin-left: 200px;
+       }
+    .discount-title{
+       margin-bottom: 20px;
+       }
+    .discount-discription{
+       margin-bottom: 20px;
+       }
+    .off{
+       color: #E55473;
+       }
+    .discount-image{
+       flex: 1;
+       text-align: center; 
+       }
+    .instagram-container{
+       margin-top: 130px;
+       }
+    .instagram-airticle{
+       max-width: 595px;
+       margin: 0 auto;
+       }
+    .insta-title{
+       margin-bottom:30px;
+       } 
 
-
-
-.our-services{
-  
-      grid-template-columns: repeat(1,1fr);
-      gap: 80px;
-      height: 100%;
-}
-.discount-container{
-    flex-direction: column;
-    height: 100%;
-}
-.discount-airticle{
-  
-  margin-left: 2px;
-
-}
-
-
-      .sign-up{
-        margin-left: -20px;
-        margin-top: 20px;
-
-      } 
-      .discount-image{
-        margin-top: 50px;
-      }  
-      
     .instagram-image{
-    
- 
-    grid-template-columns: repeat(1,1fr);
-    align-self: center;
-    margin: 0 auto;
-    gap: 24px;
-    width: 90%;
-    margin-left: 20px;
-    margin-top: 30px;   
-            }
-
-     .information-form{
-      flex-direction: column;
-    
-        }
-
-       input{
-          width:300px ;
-          border-radius: 8px;
-          border: none;
-     
-        }
-       .Subscrive{
-         margin-left: -10px;
-         margin-top: 20px;
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       margin-top: 60px;
+       }
+    .instagram-image img{
+       border-radius: 10px;
+       } 
+    /* details  */
+    .details-container{
+       max-width: 1440px;
+       margin: 0 auto;
+       height: 449px;       
+       background-image: url("../Flower Asset/Rectangle\ 9.png");
+       background-repeat: no-repeat;
+       margin-top: 120px;
+       padding: 130px 0 130px 0 ;
+       }
+    .information-form{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: 50px;
        }
 
-     }
+    input{
+       width:680px ;
+       height: 65px; 
+       border-radius: 8px;
+       border: none;
+       padding: 30px;
+       }
+    .Subscrive{
+       margin-left: 10px;
+       }
+    .footer{
+       background-color: #111010;
+       margin-top: 120px;
+       margin-bottom: 70px;
+       }
+    .footer-container{
+       max-width: 625px;
+       margin: 0 auto;
+       text-align: center;   
+       }
+    .footer-title{
+       font-size: 3rem;
+       font-weight: 800;
+       color: white;
+       padding: 30px 0 0 0;
+       }
+    .footer-description{
+       color: rgba(255, 255, 255, 0.9);
+       font-size: 1.125rem;
+       margin-top: 10px;
+       }
+    .footer-build{
+       color: rgba(255, 255, 255, 0.4);
+       margin-top: 10px;
+       padding:  0 0 40px 0;
+       }
+   /* Small device  */
+    @media screen and (max-width:576px) {
+          .header-container{
+                flex-direction: column;
+                } 
+          .header-title{
+                font-size: 3.5rem;
+                text-align: center;
+                margin: 5px 0px;
+                }
+          .header-sub-title{
+                text-align: center;
+                } 
+          .btn-primary{
+                margin-left: 120px;
+                }
+          .header-img img{
+                width: 100%;
+                height: 100%;
+                margin-top: 50px;
+                }
+          .feature-card-container{
+                margin-top: 100px;
+                box-sizing: border-box;
+                grid-template-columns: repeat(1,1fr);
+                } 
+          .feature-image{
+                margin-top: 80px; 
+                width: 100%;
+                } 
+           .our-services{
+                grid-template-columns: repeat(1,1fr);
+                gap: 80px;
+                height: 100%;
+                }
+           .discount-container{
+                flex-direction: column;
+                height: 100%;
+                }
+           .discount-airticle{
+                margin-left: 2px;
+                }
+           .sign-up{
+                margin-left: -20px;
+                margin-top: 20px;
+                } 
+          .discount-image{
+                margin-top: 50px;
+                }  
+          .instagram-image{
+                grid-template-columns: repeat(1,1fr);
+                align-self: center;
+                margin: 0 auto;
+                gap: 24px;
+                width: 90%;
+                margin-left: 40px; 
+                margin-top: 30px;   
+                }
+          .information-form{
+                flex-direction: column;
+                }
+           input{
+                width:300px ;
+                border-radius: 8px;
+                border: none;
+               }
+           .Subscrive{
+               margin-left: -10px;
+               margin-top: 20px;
+               }
+               }
