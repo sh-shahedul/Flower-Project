@@ -203,7 +203,7 @@ background-color:rgba(5, 151, 160, 0.15) ;
 .discount-discription{
     margin-bottom: 20px;
 }
-#off{
+.off{
     color: #E55473;
 }
 .discount-image{
@@ -271,6 +271,40 @@ input{
 .Subscrive{
     margin-left: 10px;
 }
+
+  .footer{
+    background-color: #111010;
+    margin-top: 120px;
+    margin-bottom: 70px;
+  }
+  .footer-container{
+    max-width: 625px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 30px 0 30px 0; */
+    
+  }
+
+ .footer-title{
+      font-size: 3rem;
+      font-weight: 800;
+      color: white;
+       padding: 30px 0 0 0;
+      
+ }
+
+ .footer-description{
+  color: rgba(255, 255, 255, 0.9);
+   font-size: 1.125rem;
+   margin-top: 10px;
+ }
+
+ .footer-build{
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 10px;
+    padding:  0 0 40px 0;
+ }
+ 
 
 
 
